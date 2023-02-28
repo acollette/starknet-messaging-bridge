@@ -29,5 +29,5 @@ def uint256(val):
 def hex_to_felt(val):
     return int(val, 16)
 
-print (hex_to_felt("0x595bfeb84a5f95de3471fc66929710e92c12cce2b652cd91a6fef4c5c09cd99"))
-print (get_selector_from_name('ex2'))
+print (hex_to_felt("0x8055d587A447AE186d1589F7AAaF90CaCCc30179"))
+print (get_selector_from_name("ex4"))
